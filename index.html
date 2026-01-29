@@ -107,6 +107,11 @@
             pointer-events: none;
             mix-blend-mode: multiply;
         }
+        @media (prefers-color-scheme: dark) {
+            body::before {
+                mix-blend-mode: screen;
+            }
+        }
     </style>
 </head>
 
